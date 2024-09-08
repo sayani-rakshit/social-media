@@ -1,0 +1,56 @@
+:root {
+    --body-bg-light: #ffffff;
+    --body-bg-dark: #121212;
+    --text-color-light: #000000;
+    --text-color-dark: #ffffff;
+    --navbar-bg-light: #f0f0f0;
+    --navbar-bg-dark: #333333;
+    --sidebar-bg-light: #f7f7f7;
+    --sidebar-bg-dark: #1e1e1e;
+    --post-bg-light: #ffffff;
+    --post-bg-dark: #242424;
+    --button-bg-light: #000000;
+    --button-bg-dark: #ffffff;
+    --button-text-light: #ffffff;
+    --button-text-dark: #000000;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .light {
+    --body-bg: var(--body-bg-light);
+    --text-color: var(--text-color-light);
+    --navbar-bg: var(--navbar-bg-light);
+    --sidebar-bg: var(--sidebar-bg-light);
+    --post-bg: var(--post-bg-light);
+    --button-bg: var(--button-bg-light);
+    --button-text: var(--button-text-light);
+  }
+  
+  .dark {
+    --body-bg: var(--body-bg-dark);
+    --text-color: var(--text-color-dark);
+    --navbar-bg: var(--navbar-bg-dark);
+    --sidebar-bg: var(--sidebar-bg-dark);
+    --post-bg: var(--post-bg-dark);
+    --button-bg: var(--button-bg-dark);
+    --button-text: var(--button-text-dark);
+  }
+  
+  /* .container {
+    display: flex;
+  } */
+  
+  body.light {
+    background-color: var(--body-bg-light);
+    color: var(--text-color-light);
+  }
+  
+  body.dark {
+    background-color: var(--body-bg-dark);
+    color: var(--text-color-dark);
+  }

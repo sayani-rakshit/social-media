@@ -1,0 +1,8 @@
+.bar{
+    display: grid;
+    grid-template-columns: 0.5fr 2fr ;
+}
+.profile{
+    background-color: var(--post-bg);
+    color: var(--text-color);
+}

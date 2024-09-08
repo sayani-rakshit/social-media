@@ -1,0 +1,75 @@
+.register{
+    height:100vh;
+    background-color: rgb(193,190,255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+ }
+ .register .card{
+     display: flex;
+     flex-direction: row-reverse;
+     background-color: white;
+     width:50%;
+     min-height: 600px;
+    overflow: hidden;
+ }
+ .register .left{
+    flex:1;
+    background-color: rgb(123, 123, 165);
+    color: white;
+    border-radius: 20px;
+ }
+ .left h1{
+     font-size: 70px;
+     margin-left: 20px;
+     font-weight: 800;
+   
+ }
+ .left p{
+  margin-left:20px;
+  font-size: 20px;
+ }
+ .left span{
+     margin-left: 40px;
+ 
+ }
+ .left button{
+     margin-left: 50px;
+     
+ 
+ }
+ .register .right{
+     flex:1;
+     position: relative;
+ 
+ }
+ .right h1{
+     position: absolute;
+     left:20%;
+     top:10%;
+     font-weight: 300;
+ 
+ }
+ .right form{
+     position: absolute;
+     top:40%;
+     left:10%;
+ 
+ }
+ .right form input{
+     border: none;
+     border-bottom: 2px solid black;
+  padding-top: 20px;
+ 
+ }
+ .right form button{
+    margin-left: 100px;
+    margin-top: 20px;
+    border: 2px solid rgb(85, 85, 141);
+    background-color: rgb(161, 129, 190);
+    color: white;
+    width: 100px;
+    
+     
+ }

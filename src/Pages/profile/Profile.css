@@ -1,0 +1,65 @@
+.profile .images{
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+.images .cover{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.images .profilepic{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    left:0;
+    right: 0;
+    margin:auto ;
+    top:250px
+}
+
+.uInfo{
+   box-shadow: 0px 0px 25px -10px rgba(0,0,0,0.38); 
+   border-radius: 20px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding-top: 70px;
+   padding-left:20px ;
+   padding-right: 20px;
+   padding-bottom: 50px;
+   margin-bottom: 20px;
+}
+.uInfo .left a{
+    margin-left: 5px;
+    color: grey;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.info .item {
+    margin-left: -20px;
+}
+.info .item span{
+    margin-left: -10px;
+}
+.center .name{
+    position: absolute;
+    left:90px;
+    top:-20px;
+}
+.center button{
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    left:80px;
+    top:15px;
+    border: none;
+    background-color: rgb(39, 39, 92);
+    color: white;
+}
